@@ -1,4 +1,4 @@
-<h1><a href="https://gustavolopesdev.github.io/PortFolio/"> Portfólio </a></h1>
+<h1><a href="https://gustavolopesdev.github.io/PortFolio/">FIGHT.JS</a></h1>
 
 <div style="display: inline_block">
 
