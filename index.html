@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mortal Kombat</title>
+</head>
+<body>
+
+    <div class="header">
+        <img id="mortalKombat" src="img/Mortal_Kombat.webp" alt="Mortal_Kombat">
+    </div>
+
+    <div class="main">
+
+        <img class="fighter" src="gif/kuma-lut1.gif" alt="kuma">
+        
+        <div class="ringue">
+            
+            <div class="imputes">
+                
+                <div>
+                    <h2>Nome : <input class="input"  id="fighter1" type="text" placeholder="Lutador"></h2>
+                    <h2>Poder : <input class="input" id="attack" type="number" placeholder="Poder de Ataque"></h2>
+                </div>
+                
+                <img src="img/VS-PNG.png" alt="VS">
+                
+                <div>
+                    <h2>Nome : <input class="input" id="fighter2" type="text" placeholder="Lutador"></h2>
+                    <h2>Defesa : <input class="input" id="defense" type="number" placeholder="Poder de Defesa"></h2>
+                </div>
+
+                <div class="form">
+                    <h2>Vida : <input class="input" id="life" type="number" placeholder="Vida do Lutador"></h2>  
+                    <form action="">
+                        <h2 class="escudo">Escudo : </H2>
+                        <label for="#">SIM</label>
+                        <input id="sim" type="radio" name="sim" >
+                        <label for="#">NÃO</label>
+                        <input id="nao" type="radio" name="nao">
+                    </form>
+                       
+                </div>
+                
+            </div>
+            
+            
+            
+            <button id="calcule"><img class="fight" src="img/SeekPng.com_fight-png_1339563.png" alt="fighter"></button>
+        
+            <div id="Result"></div>
+
+        </div>
+        
+        <img class="fighter"src="gif/terry-lut2.gif" alt="terry-lut2">
+        
+    </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("#mortalKombat"));
+    </script>
+</body>
+</html>

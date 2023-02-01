@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+body{
+    background-color: #000;
+}
+
+div.header{
+    display: flex;
+    justify-content: center;
+}
+div.header img{
+    height: 35vh;
+}
+
+div.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+div.main img.fighter{
+    height: 65vh;
+}
+
+div.ringue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #990C0A;
+    border-radius: 25px;
+    height: 65vh;
+    width: 60vh;
+}
+div.imputes img{
+    height: 10vh;
+}
+div.imputes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+div.imputes div{
+    display: flex;
+    gap: 10px;
+}
+div.imputes div h2 input.input{
+  border: none;
+  outline: none;
+  height: 4.5vh;
+  width: 28vh;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 13px;
+  color: #000;
+  font-size: 20px;
+}
+div.imputes div.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+div.imputes div.form label{
+    font-size: 20px;
+}
+
+button#calcule{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+button img.fight{
+    height: 7vh;
+}
+
+div#Result{
+    background-color: #fff;
+    height: 12vh;
+    width: 95%;
+    border-radius: 20px;
+    color: #000;
+    font-size: 23px;
+    padding: 10px 15px ;
+}
+@media screen and (max-width:2570px) and (min-width:2370px){
+
+    div.main img.fighter{
+        height: 65vh;
+    }
+    div.ringue{
+        height: 54vh;
+        width: 60vh;
+    }
+    div.imputes div h2 input.input{
+        font-size: 30px;
+    }
+    div.imputes div.form label {
+        font-size: 30px;
+    }
+    div.imputes div h2{
+        font-size: 2rem;
+    }
+    div#Result {
+        height: 9vh;
+        width: 95%;        
+        font-size: 2rem;
+    }
+    input[type=radio] {
+        border: 0;
+        width: 25px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:884px){
+    div.main img.fighter {
+       display: none;
+    }
+    div.imputes div h2 input.input {
+        font-size: 2rem;
+    }
+    div.imputes div.form label {
+        font-size: 2rem;
+    }
+    div.imputes div h2 {
+        font-size: 2.3rem;
+    }
+
+    div#Result {
+        height: 14vh;
+        width: 95%;
+        font-size: 2rem;
+    }
+
+    input[type=radio] {
+        border: 0;
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+@media screen and (max-width:428px) {
+    div.ringue {
+        height: 54vh;
+        width: 50vh;
+    }
+
+    div.imputes div h2 input.input {
+        font-size: 1rem;
+    }
+
+    div.imputes div.form label {
+        font-size: 1rem;
+    }
+
+    div.imputes div h2 {
+        font-size: 1.3rem;
+    }
+
+    div#Result {
+        height: 6vh;
+        padding: 0 10px;
+        width: 85%;
+        font-size: 0.9rem;
+    }
+
+    input[type=radio] {
+        border: 0;
+        width: 14px;
+        height: 12px;
+    }
+    div.imputes div h2 input.input {
+        height: 4vh;
+        width: 20vh;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:320px) {
+    div.ringue {
+        height: 64vh;
+        width: 65vh;
+    }
+
+    div.imputes div h2 {
+        font-size: 1.1rem;
+    }
+
+    div#Result {
+        height: 7.8vh;
+        width: 94%;
+        font-size: 0.8rem;
+    }
+
+    div.imputes div h2 input.input {
+        height: 4.5vh;
+        width: 29vh;
+        font-size: 0.9rem;
+    }
+}
